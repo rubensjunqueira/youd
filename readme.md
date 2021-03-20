@@ -2,7 +2,7 @@
 
 <p align="center">👨‍💻 Youd is a simple CLI for download youtube videos 🤓</p>
 
-## Instalation
+### Instalation
 ```
 npm install -g youd
 ```
@@ -35,3 +35,8 @@ youd <youtube URL> --mp4
 
 #### Linux
 `home/{User}/Youd`
+
+### Tools
+- [Node.js](https://nodejs.org/en/)
+- [Gluegun](https://infinitered.github.io/gluegun/#/)
+- [Typescript](https://www.typescriptlang.org/)
