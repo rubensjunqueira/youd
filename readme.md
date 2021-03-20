@@ -1,25 +1,37 @@
-# youd CLI
+<h1 align="center">Youd</h1>
 
-A CLI for youd.
+<p align="center">👨‍💻 Youd is a simple CLI for download youtube videos 🤓</p>
 
-## Customizing your CLI
-
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
-
-## Publishing to NPM
-
-To package your CLI up for NPM, do this:
-
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
+## Instalation
+```
+npm install -g youd
 ```
 
-# License
+### Usage
 
-MIT - see LICENSE
+For download a video:
+```
+youd <youtube URL> 
+```
 
+or
+
+For download a specific format:
+```
+youd <youtube URL> --mp3
+```
+
+```
+youd <youtube URL> --mp4
+```
+
+### Download location
+
+#### Windows
+`Users/{User}/Documents/Youd`
+
+#### MacOS
+`Users/{User}/Documents/Youd`
+
+#### Linux
+`home/{User}/Youd`

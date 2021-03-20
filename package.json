@@ -1,8 +1,7 @@
 {
   "name": "youd",
   "version": "0.0.1",
-  "description": "youd CLI",
-  "private": true,
+  "description": "CLI for download youtube videos.",
   "types": "build/types/types.d.ts",
   "bin": {
     "youd": "bin/youd"
