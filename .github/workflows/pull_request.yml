@@ -7,19 +7,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        name: Checkout
       # Setup .npmrc file to publish to npm
-      - name: Install Node.js
       - uses: actions/setup-node@v2
+        name: Install Node.js
         with:
           node-version: "12.x"
           # registry-url: "https://registry.npmjs.org"
           # Defaults to the user or organization that owns the workflow file
           # scope: "@octocat"
-      - name: Install Dependencies
-        run: yarn
-      - name: Run Tests
-        run: yarn test
+      - run: yarn
+        name: Install dependencies
+      - run: yarn test
+        name: Run Tests
         # env:
         #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
