@@ -1,7 +1,6 @@
 name: Pull_Request
 on:
   pull_request:
-    branches: [master]
 
 jobs:
   build:
