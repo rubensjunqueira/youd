@@ -1,5 +1,9 @@
 <h1 align="center">Youd</h1>
 
+<p align="center">
+    <img alt="version" src="https://img.shields.io/npm/v/youd?color=green&label=version">
+</p>
+
 <p align="center">👨‍💻 Youd is a simple CLI for download youtube videos 🤓</p>
 
 ### Instalation
