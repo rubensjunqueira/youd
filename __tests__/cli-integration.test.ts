@@ -14,12 +14,12 @@ const cli = async (cmd: string) =>
 
 test('outputs version', async () => {
   const output = await cli('--version')
-  expect(output).toContain('0.0.1')
+  expect(output).toContain('0.0.2')
 })
 
 test('outputs help', async () => {
   const output = await cli('--help')
-  expect(output).toContain('0.0.1')
+  expect(output).toContain('0.0.2')
 })
 
 test('should download a mp4 format', async () => {
