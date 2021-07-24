@@ -12,7 +12,7 @@
     "compile": "tsc -p .",
     "build": "yarn format && yarn lint && yarn compile",
     "prepublishOnly": "yarn build",
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "watch": "jest --watch",
     "snapupdate": "jest --updateSnapshot",
     "coverage": "jest --coverage"
@@ -30,7 +30,7 @@
   "dependencies": {
     "gluegun": "latest",
     "progress": "^2.0.3",
-    "ytdl-core": "^4.5.0"
+    "ytdl-core": "^4.9.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
